@@ -12,10 +12,10 @@ public class Fashion_sarees extends JFrame {
         setSize(500, 700);
         setLayout(null);
 
-        ImageIcon choco1 = new ImageIcon("images/drink1.jpg");
-        ImageIcon choco2 = new ImageIcon("images/drink2.jpg");
-        ImageIcon choco3 = new ImageIcon("images/drink3.jpg");
-        ImageIcon choco4 = new ImageIcon("images/drink4.jpg");
+        ImageIcon choco1 = new ImageIcon("images/saree1.jpg");
+        ImageIcon choco2 = new ImageIcon("images/saree2.jpg");
+        ImageIcon choco3 = new ImageIcon("images/saree3.jpg");
+        ImageIcon choco4 = new ImageIcon("images/saree4.jpg");
 
         // Create buttons
         JButton button1 = createButton(25,120);

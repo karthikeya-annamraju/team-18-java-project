@@ -12,10 +12,10 @@ public class Fashion_heels extends JFrame {
         setSize(500, 700);
         setLayout(null);
 
-        ImageIcon choco1 = new ImageIcon("images/drink1.jpg");
-        ImageIcon choco2 = new ImageIcon("images/drink2.jpg");
-        ImageIcon choco3 = new ImageIcon("images/drink3.jpg");
-        ImageIcon choco4 = new ImageIcon("images/drink4.jpg");
+        ImageIcon choco1 = new ImageIcon("images/heel1.jpg");
+        ImageIcon choco2 = new ImageIcon("images/heel2.jpg");
+        ImageIcon choco3 = new ImageIcon("images/heel3.jpg");
+        ImageIcon choco4 = new ImageIcon("images/heel4.jpg");
 
         // Create buttons
         JButton button1 = createButton(25,120);

@@ -12,10 +12,10 @@ public class Cosmetics_creams extends JFrame {
         setSize(500, 700);
         setLayout(null);
 
-        ImageIcon choco1 = new ImageIcon("images/mobile1.jpg");
-        ImageIcon choco2 = new ImageIcon("images/mobile2.jpg");
-        ImageIcon choco3 = new ImageIcon("images/mobile3.jpg");
-        ImageIcon choco4 = new ImageIcon("images/mobile4.jpg");
+        ImageIcon choco1 = new ImageIcon("images/cream1.jpg");
+        ImageIcon choco2 = new ImageIcon("images/cream2.jpg");
+        ImageIcon choco3 = new ImageIcon("images/cream3.jpg");
+        ImageIcon choco4 = new ImageIcon("images/cream4.jpg");
 
         // Create buttons
         JButton button1 = createButton(25,120);
