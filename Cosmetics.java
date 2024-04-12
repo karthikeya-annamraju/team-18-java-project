@@ -1,5 +1,7 @@
 import java.awt.Color;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import javax.swing.*;
 public class Cosmetics extends JFrame {
     public Cosmetics() {
@@ -14,6 +16,35 @@ public class Cosmetics extends JFrame {
         JButton button2 = createButton("Creams", 250);
         JButton button3 = createButton("Perfumes", 350);
         JButton button4 = createButton("Accessories", 450);
+
+        button1.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Open frame for Electronic Devices
+                Cosmetics_lipsticks lipstick = new Cosmetics_lipsticks();
+                lipstick.setVisible(true);
+            }
+        });
+        button2.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                 Cosmetics_creams cream = new Cosmetics_creams();
+                 cream.setVisible(true);
+            }
+        });
+        button3.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+               Cosmetics_perfumes perfume = new Cosmetics_perfumes();
+               perfume.setVisible(true);
+            }
+        });
+        button4.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+               Cosmetics_accessories accessories1 = new Cosmetics_accessories();
+               accessories1.setVisible(true);
+            }
+        });
 
         // Create labels
         JLabel label1 = createLabel1("COSMETICS");

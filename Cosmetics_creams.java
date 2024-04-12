@@ -4,18 +4,18 @@ import java.awt.Font;
 // import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class Electronic_laptops extends JFrame {
-    public Electronic_laptops() {
-        setTitle("laptops");
+public class Cosmetics_creams extends JFrame {
+    public Cosmetics_creams() {
+        setTitle("creams");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setSize(500, 700);
         setLayout(null);
 
-        ImageIcon choco1 = new ImageIcon("images/laptop1.jpg");
-        ImageIcon choco2 = new ImageIcon("images/laptop2.jpg");
-        ImageIcon choco3 = new ImageIcon("images/laptop3.jpg");
-        ImageIcon choco4 = new ImageIcon("images/laptop4.jpg");
+        ImageIcon choco1 = new ImageIcon("images/mobile1.jpg");
+        ImageIcon choco2 = new ImageIcon("images/mobile2.jpg");
+        ImageIcon choco3 = new ImageIcon("images/mobile3.jpg");
+        ImageIcon choco4 = new ImageIcon("images/mobile4.jpg");
 
         // Create buttons
         JButton button1 = createButton(25,120);
@@ -76,6 +76,6 @@ public class Electronic_laptops extends JFrame {
     }
     public static void main(String[] args) {
         // Create an instance of CategoriesFrame
-        SwingUtilities.invokeLater(ElectronicDevices::new);
+        SwingUtilities.invokeLater(Cosmetics::new);
     }
 }

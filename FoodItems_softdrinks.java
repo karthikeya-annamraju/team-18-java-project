@@ -1,12 +1,12 @@
 import java.awt.Color;
 import java.awt.Font;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+// import java.awt.event.ActionEvent;
+// import java.awt.event.ActionListener;
 import javax.swing.*;
 
 public class FoodItems_softdrinks extends JFrame {
     public FoodItems_softdrinks() {
-        setTitle("chocolates");
+        setTitle("soft drinks");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setSize(500, 700);
