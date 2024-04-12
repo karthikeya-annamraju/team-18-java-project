@@ -19,9 +19,10 @@ public class JDBCsqlConnectionTest {
         Class.forName(DB_DRIVER);
         //Open the connection
         conn = DriverManager.getConnection(DB_URL, DB_USERNAME, DB_PASSWORD);
-        if(conn != null){
+        if(conn != null) {
             System.out.println("Successfully connected.");
-        }else{
+        }
+        else {
             System.out.println("Failed to connect.");
         }
     }
