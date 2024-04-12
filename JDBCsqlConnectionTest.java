@@ -3,6 +3,8 @@ import java.sql.DriverManager;
 
 // this class is used to create a JDBC connection with MySQL Database.
 
+// this is testing.
+
 public class JDBCsqlConnectionTest {
     
     // JDBC and database properties.
