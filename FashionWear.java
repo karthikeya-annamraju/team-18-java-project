@@ -1,5 +1,7 @@
 import java.awt.Color;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import javax.swing.*;
 public class FashionWear extends JFrame {
     public FashionWear() {
@@ -14,6 +16,35 @@ public class FashionWear extends JFrame {
         JButton button2 = createButton("Shirts", 250);
         JButton button3 = createButton("Shoes", 350);
         JButton button4 = createButton("Heels", 450);
+
+        button1.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Open frame for Electronic Devices
+                Fashion_sarees saree = new Fashion_sarees();
+                saree.setVisible(true);
+            }
+        });
+        button2.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                 Fashion_shirts shirt = new Fashion_shirts();
+                 shirt.setVisible(true);
+            }
+        });
+        button3.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+               Fashion_shoes shoe = new Fashion_shoes();
+               shoe.setVisible(true);
+            }
+        });
+        button4.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                Fashion_heels heel = new Fashion_heels();
+                heel.setVisible(true);
+            }
+        });
 
         // Create labels
         JLabel label1 = createLabel1("FASHION WEAR");

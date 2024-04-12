@@ -1,9 +1,12 @@
 import java.awt.Color;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import javax.swing.*;
 public class FoodItems extends JFrame {
     public FoodItems() {
-        setTitle("fashion wear");
+        setTitle("Food Products");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setSize(500, 700);
@@ -15,6 +18,34 @@ public class FoodItems extends JFrame {
         JButton button3 = createButton("Soft Drinks", 350);
         JButton button4 = createButton("Chips", 450);
 
+        button1.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Open frame for Electronic Devices
+                FoodItems_chocolates chocos = new FoodItems_chocolates();
+                chocos.setVisible(true);
+            }
+        });
+        button2.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                 FoodItems_biscuits biscuit = new FoodItems_biscuits();
+                 biscuit.setVisible(true);
+            }
+        });
+        button3.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+               FoodItems_softdrinks drinks = new FoodItems_softdrinks();
+               drinks.setVisible(true);
+            }
+        });
+        button4.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                FoodItems_chips chip = new FoodItems_chips();
+                chip.setVisible(true);
+            }
+        });
         // Create labels
         JLabel label1 = createLabel1("FOOD PRODUCTS");
         JLabel label2 = createLabel2("Happiness is not in money, but in shopping.!!");

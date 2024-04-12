@@ -1,2 +1,2 @@
-label1.setHorizontalTextPosition(JLabel.CENTER);
-        // label1.setVerticalTextPosition(JLabel.TOP);
+FoodItems_biscuits biscuit = new FoodItems_biscuits();
+                // buscuit.setVisible(true);

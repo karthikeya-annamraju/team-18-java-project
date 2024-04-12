@@ -1,5 +1,7 @@
 import java.awt.Color;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import javax.swing.*;
 public class ElectronicDevices extends JFrame {
     public ElectronicDevices() {
@@ -14,6 +16,35 @@ public class ElectronicDevices extends JFrame {
         JButton button2 = createButton("Laptops", 250);
         JButton button3 = createButton("TV", 350);
         JButton button4 = createButton("AC", 450);
+
+        button1.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Open frame for Electronic Devices
+                Electronic_mobiles mobile = new Electronic_mobiles();
+                mobile.setVisible(true);
+            }
+        });
+        button2.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                 Electronic_laptops laptop = new Electronic_laptops();
+                 laptop.setVisible(true);
+            }
+        });
+        button3.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+               Electronic_tvs tv = new Electronic_tvs();
+               tv.setVisible(true);
+            }
+        });
+        button4.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                Electronic_acs ac = new Electronic_acs();
+                ac.setVisible(true);
+            }
+        });
 
         // Create labels
         JLabel label1 = createLabel1("ELECTRONIC DEVICES");

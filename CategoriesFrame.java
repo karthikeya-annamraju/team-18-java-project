@@ -98,6 +98,6 @@ public class CategoriesFrame extends JFrame {
     }
     public static void main(String[] args) {
         // Create an instance of CategoriesFrame
-        SwingUtilities.invokeLater(CategoriesFrame::new);
+        SwingUtilities.invokeLater(MainFrame::new);
     }
 }

@@ -4,18 +4,18 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class FoodItems_chocolates extends JFrame {
-    public FoodItems_chocolates() {
-        setTitle("chocolates");
+public class Electronic_mobiles extends JFrame {
+    public Electronic_mobiles() {
+        setTitle("mobiles");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setSize(500, 700);
         setLayout(null);
 
-        ImageIcon choco1 = new ImageIcon("images/choco1.jpg");
-        ImageIcon choco2 = new ImageIcon("images/choco2.jpg");
-        ImageIcon choco3 = new ImageIcon("images/choco3.jpg");
-        ImageIcon choco4 = new ImageIcon("images/choco4.jpg");
+        ImageIcon choco1 = new ImageIcon("images/mobile1.jpg");
+        ImageIcon choco2 = new ImageIcon("images/mobile2.jpg");
+        ImageIcon choco3 = new ImageIcon("images/mobile3.jpg");
+        ImageIcon choco4 = new ImageIcon("images/mobile4.jpg");
 
         // Create buttons
         JButton button1 = createButton(25,120);
@@ -76,6 +76,6 @@ public class FoodItems_chocolates extends JFrame {
     }
     public static void main(String[] args) {
         // Create an instance of CategoriesFrame
-        SwingUtilities.invokeLater(FoodItems::new);
+        SwingUtilities.invokeLater(ElectronicDevices::new);
     }
 }
