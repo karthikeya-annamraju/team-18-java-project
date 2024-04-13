@@ -1,0 +1,256 @@
+JDBC -> Java Database Connectivity
+
+Java Programming    ->    Drivers  -->               Database
+Types of Drivers:
+Type1 or JDBC Bridge Drivers
+Type2 or Native or Partial Java Drivers
+Type3 or NetProtocol Drivers
+Type4 or Pure Java Drivers
+
+How to connect with MySQL Database:
+Step1: Install the MySQL database in your system
+
+Step2: Set the path and classpath variable values
+path:
+      C:\Program Files\MySQL\MySQL Server 8.0\bin;
+	  C:\Program Files\Java\jdk-11.0.17\bin;
+	  
+	  
+classpath:
+       C:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-j-8.0.33.jar;
+	   C:\Program Files\Java\jdk-11.0.17\lib;
+    
+=================================================================================
+The important classes and interfaces used in JDBC:
+1) DriverManager  - class
+2) Connection
+3) Statement
+4) PreparedStatement
+5) ResultSet
+
+Steps involved in Database Connection:
+1) Register the Driver
+   Class.forName("com.mysql.cj.jdbc.Driver");
+   
+2) Establish the connection
+   Connection con=DriverManager.getConnection(url,username,password);
+   Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/dbname",root,"Thub@123");
+
+3) Create the Statement Object
+   Statement st=con.createStatement();
+
+4) Execute the Query
+   st.executeUpdate("insert into employee values(101,'Ravi',50000)");
+   st.executeQuery("select * from Employee");
+   
+5) Close the Connection
+   con.close();
+
+Program -1:
+Establish the Database Connection:
+import java.sql.*;
+class DBCon
+{
+	public static void main(String args[])throws Exception
+	{
+		//1.Register ther Driver
+		Class.forName("com.mysql.cj.jdbc.Driver");
+
+		//2. Establish the Connection
+		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/politics","root","Thub@123");
+
+		if(con!=null)
+			System.out.println("Connection Established");
+		else
+			System.out.println("Connection Failed");
+	}
+}
+D:\TSE25JavaProg\db>java DBCon
+Connection Established
+--------------------------------------------------------------------------
+Program - 2:
+import java.sql.*;
+class TableCreation
+{
+	public static void main(String args[])throws Exception
+	{
+		//1.Register ther Driver
+		Class.forName("com.mysql.cj.jdbc.Driver");
+
+		//2. Establish the Connection
+		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/politics","root","Thub@123");
+		if(con!=null)
+			System.out.println("Connection Established");
+
+		//3. Create the Statement Object
+		Statement st=con.createStatement();
+
+		String query="create table Assembly(areacode varchar(10),mlaname varchar(20), population integer(6))";
+
+		//4. Execute the query
+		st.executeUpdate(query);
+		System.out.println("Query Executed Successfully");
+       
+	    //5. Close the Connection
+		con.close();
+	}
+}
+D:\TSE25JavaProg\db>java TableCreation
+Connection Established
+Query Executed Successfully
+mysql> show tables;
++--------------------+
+| Tables_in_politics |
++--------------------+
+| assembly           |
++--------------------+
+1 row in set (0.00 sec)
+
+mysql> desc assembly;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| areacode   | varchar(10) | YES  |     | NULL    |       |
+| mlaname    | varchar(20) | YES  |     | NULL    |       |
+| population | int         | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+3 rows in set (0.01 sec)
+============================================================================
+Program - 3:  Insertion of data into the table
+
+import java.sql.*;
+class InsertionDemo
+{
+	public static void main(String args[])throws Exception
+	{
+		//1.Register ther Driver
+		Class.forName("com.mysql.cj.jdbc.Driver");
+
+		//2. Establish the Connection
+		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/politics","root","Thub@123");
+		if(con!=null)
+			System.out.println("Connection Established");
+
+		//3. Create the Statement Object
+		Statement st=con.createStatement();
+
+		String query="insert into assembly values('GN1303','Kodali Nani',700000)";
+
+		//4. Execute the query
+		st.executeUpdate(query);
+		System.out.println("Query Executed Successfully");
+       
+	    //5. Close the Connection
+		con.close();
+	}
+}
+
+mysql> select * from assembly;
++----------+----------------+------------+
+| areacode | mlaname        | population |
++----------+----------------+------------+
+| EG1301   | Chinna Rajappa |     600000 |
+| WG1302   | RRR            |     400000 |
+| GN1303   | Kodali Nani    |     700000 |
++----------+----------------+------------+
+3 rows in set (0.00 sec)
+=====================================================================
+Program - 5:
+import java.sql.*;
+class UpdationDemo
+{
+	public static void main(String args[])throws Exception
+	{
+		//1.Register ther Driver
+		Class.forName("com.mysql.cj.jdbc.Driver");
+
+		//2. Establish the Connection
+		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/politics","root","Thub@123");
+		if(con!=null)
+			System.out.println("Connection Established");
+
+		//3. Create the Statement Object
+		Statement st=con.createStatement();
+
+		String query="update assembly set population=800000 where areacode='WG1302'";
+		//4. Execute the query
+		st.executeUpdate(query);
+		System.out.println("Query Executed Successfully");
+       
+	    //5. Close the Connection
+		con.close();	
+	}
+}
+mysql> select * from assembly;
++----------+----------------+------------+
+| areacode | mlaname        | population |
++----------+----------------+------------+
+| EG1301   | Chinna Rajappa |     600000 |
+| WG1302   | RRR            |     800000 |
+| GN1303   | Kodali Nani    |     700000 |
++----------+----------------+------------+
+3 rows in set (0.00 sec)
+=====================================================================
+How to reterive the records from a table:
+
+ResultSet interface is used to store the records returned by the select query.
+
+import java.sql.*;
+class SelectDemo
+{
+	public static void main(String args[])throws Exception
+	{
+		//1.Register ther Driver
+		Class.forName("com.mysql.cj.jdbc.Driver");
+
+		//2. Establish the Connection
+		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/politics","root","Thub@123");
+		if(con!=null)
+			System.out.println("Connection Established");
+
+		//3. Create the Statement Object
+		Statement st=con.createStatement();
+
+		String query="select * from assembly";
+		//4. Execute the query
+		ResultSet rs=st.executeQuery(query);
+
+		while(rs.next())
+	    {
+			System.out.print(rs.getString(1)+" - ");
+			//System.out.print(rs.getString(2)+" - ");
+			System.out.print(rs.getInt(3)+"\n");
+		}
+		
+
+       
+	    //5. Close the Connection
+		con.close();
+		
+		
+	}
+}
+D:\TSE25JavaProg\db>java SelectDemo
+Connection Established
+EG1301 - Chinna Rajappa - 600000
+WG1302 - RRR - 800000
+GN1303 - Kodali Nani - 700000
+
+D:\TSE25JavaProg\db>javac InsertionDemo.java
+
+D:\TSE25JavaProg\db>java SelectDemo
+Connection Established
+EG1301 - 600000
+WG1302 - 800000
+GN1303 - 700000
+===============================================================================
+
+
+
+
+
+
+
+
+
+
