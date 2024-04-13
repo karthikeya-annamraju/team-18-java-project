@@ -6,7 +6,7 @@ import javax.swing.*;
 
 public class biscuits4 extends JFrame {
     public biscuits4() {
-        setTitle("accessories");
+        setTitle("biscuits");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setSize(500, 700);
@@ -29,8 +29,8 @@ public class biscuits4 extends JFrame {
         JLabel label1 = createLabel1("50-50 BISCUIT");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Brand : Cadbury <br/> Item Form : Bar <br/> Chocolate Type : Milk <br/> Flavour : Chocolate <br/> Net Quantity	: 146.0 gram <br/> Diet Type : Vegetarian");
-        JLabel label4 = createLabel4("<html> Indulge in a rich, smooth, and creamy celebration. Cadbury <br/> Silk Ganache is a decadent chocolate experience with rich <br/> cocoa notes that you can indulge in. This milk chocolate <br/> bar is a perfect sweet to indulge in all alone or as a chocolate <br/> gift pack for gifting on special occasions like birthdays and <br/> get-togethers. Every bar of Cadbury Dairy Milk Silk is made <br/> from 100% sustainably sourced cocoa. It is suitable for <br/> vegetarians.");
+        JLabel label3 = createLabel3("<html> Diet Type : Vegetarian <br/> Number of Items : 1 <br/> Net Quantity : 45.0 gram <br/> Brand : Britannia <br/> Item Weight	: 45 Grams <br/> Number of Pieces : 1 <br/> Item Form : Solid");
+        JLabel label4 = createLabel4("<html> Biscuits, a beloved staple in households worldwide, are <br/> versatile, crispy, and delectable treats that cater to a <br/> wide range of tastes and preferences. Whether enjoyed as a <br/> quick snack with tea, paired with cheese, or savored on <br/> their own, biscuits offer a delightful crunch and <br/> satisfying flavor experience.");
 
         // Add components to the frame
         getContentPane().add(label1);
@@ -74,7 +74,7 @@ public class biscuits4 extends JFrame {
 
     private JLabel createLabel4(String text) {
         JLabel label4 = new JLabel(text);
-        label4.setBounds(20, 290, 800, 300);
+        label4.setBounds(15, 290, 800, 300);
         label4.setBackground(new Color(238, 238, 238));
         label4.setForeground(new Color(19, 93, 102));
         label4.setFont(new Font("MV Boli",Font.BOLD,14));

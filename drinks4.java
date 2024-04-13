@@ -4,15 +4,15 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class biscuits3 extends JFrame {
-    public biscuits3() {
+public class drinks4 extends JFrame {
+    public drinks4() {
         setTitle("biscuits");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setSize(500, 700);
         setLayout(null);
 
-        ImageIcon choco1 = new ImageIcon("images/biscuits3.jpg");
+        ImageIcon choco1 = new ImageIcon("images/drink4.jpg");
 
         //creating buttons
         JButton button = createButton("BUY NOW");
@@ -21,15 +21,15 @@ public class biscuits3 extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Show a popup message when the button is clicked
-                JOptionPane.showMessageDialog(biscuits3.this , "YOU SUCCESSFULLY BOUGHT THIS ITEM!!");
+                JOptionPane.showMessageDialog(drinks4.this , "YOU SUCCESSFULLY BOUGHT THIS ITEM!!");
             }
         });
 
         // Create labels
-        JLabel label1 = createLabel1("HIDE AND SEEK");
+        JLabel label1 = createLabel1("50-50 BISCUIT");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Diet Type : Vegetarian <br/> Number of Items : 1 <br/> Net Quantity : 45.0 gram <br/> Brand : parle platina <br/> Item Weight	: 45 Grams <br/> Number of Pieces : 1 <br/> Item Form : Solid");
+        JLabel label3 = createLabel3("<html> Diet Type : Vegetarian <br/> Number of Items : 1 <br/> Net Quantity : 45.0 gram <br/> Brand : Britannia <br/> Item Weight	: 45 Grams <br/> Number of Pieces : 1 <br/> Item Form : Solid");
         JLabel label4 = createLabel4("<html> Biscuits, a beloved staple in households worldwide, are <br/> versatile, crispy, and delectable treats that cater to a <br/> wide range of tastes and preferences. Whether enjoyed as a <br/> quick snack with tea, paired with cheese, or savored on <br/> their own, biscuits offer a delightful crunch and <br/> satisfying flavor experience.");
 
         // Add components to the frame
@@ -94,6 +94,6 @@ public class biscuits3 extends JFrame {
 
     public static void main(String[] args) {
         // Create an instance of CategoriesFrame
-        SwingUtilities.invokeLater(FoodItems_biscuits::new);
+        SwingUtilities.invokeLater(FoodItems_softdrinks::new);
     }
 }
