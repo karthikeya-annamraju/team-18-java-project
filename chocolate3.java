@@ -4,15 +4,15 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class chocolate1 extends JFrame {
-    public chocolate1() {
+public class chocolate3 extends JFrame {
+    public chocolate3() {
         setTitle("accessories");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setSize(500, 700);
         setLayout(null);
 
-        ImageIcon choco1 = new ImageIcon("images/choco1.jpg");
+        ImageIcon choco1 = new ImageIcon("images/choco3.jpg");
 
         //creating buttons
         JButton button = createButton("BUY NOW");
@@ -21,12 +21,12 @@ public class chocolate1 extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Show a popup message when the button is clicked
-                JOptionPane.showMessageDialog(chocolate1.this , "YOU SUCCESSFULLY BOUGHT THIS ITEM!!");
+                JOptionPane.showMessageDialog(chocolate3.this , "YOU SUCCESSFULLY BOUGHT THIS ITEM!!");
             }
         });
 
         // Create labels
-        JLabel label1 = createLabel1("Dairy Milk Silk");
+        JLabel label1 = createLabel1("5 STAR");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
         JLabel label3 = createLabel3("<html> Brand : Cadbury <br/> Item Form : Bar <br/> Chocolate Type : Milk <br/> Flavour : Chocolate <br/> Net Quantity	: 146.0 gram <br/> Diet Type : Vegetarian");
@@ -50,7 +50,7 @@ public class chocolate1 extends JFrame {
         JLabel label1 = new JLabel(text);
         label1.setHorizontalTextPosition(JLabel.CENTER);
         label1.setVerticalTextPosition(JLabel.TOP);
-        label1.setBounds(125, 30, 450, 60);
+        label1.setBounds(175, 30, 450, 60);
         label1.setBackground(new Color(255, 190, 152));
         label1.setForeground(new Color(28,22,120));
         label1.setFont(new Font("MV Boli",Font.BOLD,30));
