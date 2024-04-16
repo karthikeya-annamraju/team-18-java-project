@@ -29,7 +29,7 @@ public class drinks2 extends JFrame {
         JLabel label1 = createLabel1("50-50 BISCUIT");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Diet Type : Vegetarian <br/> Number of Items : 1 <br/> Net Quantity : 45.0 gram <br/> Brand : Britannia <br/> Item Weight	: 45 Grams <br/> Number of Pieces : 1 <br/> Item Form : Solid");
+        JLabel label3 = createLabel3("Brand : Sprite <br/> Item Form : Soft Drinks <br/> Number of Items : 1 <br/> Package Information : Bottle <br/> Item Volume : 600 Millilitres <br/> Net Quantity : 600 millilitre");
         JLabel label4 = createLabel4("<html> Biscuits, a beloved staple in households worldwide, are <br/> versatile, crispy, and delectable treats that cater to a <br/> wide range of tastes and preferences. Whether enjoyed as a <br/> quick snack with tea, paired with cheese, or savored on <br/> their own, biscuits offer a delightful crunch and <br/> satisfying flavor experience.");
 
         // Add components to the frame
