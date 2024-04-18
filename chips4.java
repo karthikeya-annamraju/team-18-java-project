@@ -4,15 +4,15 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class drinks4 extends JFrame {
-    public drinks4() {
-        setTitle("drinks");
+public class chips4 extends JFrame {
+    public chips4() {
+        setTitle("chips");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setSize(500, 700);
         setLayout(null);
 
-        ImageIcon choco1 = new ImageIcon("images/drink4.jpg");
+        ImageIcon choco1 = new ImageIcon("images/chips4.jpg");
 
         //creating buttons
         JButton button = createButton("BUY NOW");
@@ -21,16 +21,16 @@ public class drinks4 extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Show a popup message when the button is clicked
-                JOptionPane.showMessageDialog(drinks4.this , "YOU SUCCESSFULLY BOUGHT THIS ITEM!!");
+                JOptionPane.showMessageDialog(chips4.this , "YOU SUCCESSFULLY BOUGHT THIS ITEM!!");
             }
         });
 
         // Create labels
-        JLabel label1 = createLabel1("MAAZA");
+        JLabel label1 = createLabel1("BINGO");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Brand : Maaza <br/> Item Form : Soft Drinks <br/> Number of Items : 1 <br/> Package Information : Bottle <br/> Item Volume : 600 Millilitres <br/> Net Quantity : 600 millilitre");
-        JLabel label4 = createLabel4("<html> Soft drinks, also known as sodas or carbonated beverages, are <br/> beloved by millions around the globe for their effervescence, <br/> refreshing taste, and ability to quench thirst on a hot day. <br/> Whether enjoyed alone or paired with a meal, soft drinks offer <br/> a delightful sensory experience that transcends borders and <br/> cultures.");
+        JLabel label3 = createLabel3("<html> Brand : Bingo <br/> Net Quantity : 50.0 gram <br/> Number of Items : 1 <br/> Type : Potato Chip <br/Diet Type : Vegetarian <br/> Item Form : Chips <br/> Item Weight : 50 Grams");
+        JLabel label4 = createLabel4("<html> Chips, also known as crisps in some regions, are a beloved snack <br/> enjoyed by millions worldwide for their irresistible crunch, bold <br/> flavors, and satisfyingly savory taste. Whether enjoyed as a <br/> quick bite between meals, a party snack, or a movie-night <br/> treat, chips offer a delightful snacking experience that appeals <br/> to all ages.");
 
         // Add components to the frame
         getContentPane().add(label1);
@@ -50,7 +50,7 @@ public class drinks4 extends JFrame {
         JLabel label1 = new JLabel(text);
         label1.setHorizontalTextPosition(JLabel.CENTER);
         label1.setVerticalTextPosition(JLabel.TOP);
-        label1.setBounds(165, 30, 450, 60);
+        label1.setBounds(180, 30, 450, 60);
         label1.setBackground(new Color(255, 190, 152));
         label1.setForeground(new Color(28,22,120));
         label1.setFont(new Font("MV Boli",Font.BOLD,30));
@@ -94,6 +94,6 @@ public class drinks4 extends JFrame {
 
     public static void main(String[] args) {
         // Create an instance of CategoriesFrame
-        SwingUtilities.invokeLater(FoodItems_softdrinks::new);
+        SwingUtilities.invokeLater(FoodItems_chips::new);
     }
 }
