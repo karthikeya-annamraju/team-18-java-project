@@ -6,7 +6,7 @@ import javax.swing.*;
 
 public class drinks1 extends JFrame {
     public drinks1() {
-        setTitle("biscuits");
+        setTitle("drinks");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setSize(500, 700);
@@ -26,7 +26,7 @@ public class drinks1 extends JFrame {
         });
 
         // Create labels
-        JLabel label1 = createLabel1("50-50 BISCUIT");
+        JLabel label1 = createLabel1("SPRITE");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
         JLabel label3 = createLabel3("<html> Brand : Sprite <br/> Item Form : Soft Drinks <br/> Number of Items : 1 <br/> Package Information : Bottle <br/> Item Volume : 600 Millilitres <br/> Net Quantity : 600 millilitre");
@@ -50,7 +50,7 @@ public class drinks1 extends JFrame {
         JLabel label1 = new JLabel(text);
         label1.setHorizontalTextPosition(JLabel.CENTER);
         label1.setVerticalTextPosition(JLabel.TOP);
-        label1.setBounds(115, 30, 450, 60);
+        label1.setBounds(165, 30, 450, 60);
         label1.setBackground(new Color(255, 190, 152));
         label1.setForeground(new Color(28,22,120));
         label1.setFont(new Font("MV Boli",Font.BOLD,30));
