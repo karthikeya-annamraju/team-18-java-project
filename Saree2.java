@@ -6,7 +6,7 @@ import javax.swing.*;
 
 public class Saree2 extends JFrame {
     public Saree2() {
-        setTitle("saree");
+        setTitle("SAREE");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setSize(500, 700);
@@ -26,11 +26,11 @@ public class Saree2 extends JFrame {
         });
 
         // Create labels
-        JLabel label1 = createLabel1("LAY'S");
+        JLabel label1 = createLabel1("SAREE");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Brand : Lay's <br/> Net Quantity : 50.0 gram <br/> Number of Items : 1 <br/> Type : Potato Chip <br/Diet Type : Vegetarian <br/> Item Form : Chips <br/> Item Weight : 50 Grams");
-        JLabel label4 = createLabel4("<html> Chips, also known as crisps in some regions, are a beloved snack <br/> enjoyed by millions worldwide for their irresistible crunch, bold <br/> flavors, and satisfyingly savory taste. Whether enjoyed as a <br/> quick bite between meals, a party snack, or a movie-night <br/> treat, chips offer a delightful snacking experience that appeals <br/> to all ages.");
+        JLabel label3 = createLabel3("<html> Material composition : Banarasi Silk <br/> Weave : typeWoven <br/> Design : ameZari <br/> Length : 6 yards <br/> Occasion : typeFestival, Casual <br/> Pattern : Floral <br/> Country of Origin : India");
+        JLabel label4 = createLabel4("<html> Sarees, the epitome of traditional Indian attire, are cherished <br/> for their timeless elegance, intricate craftsmanship, and <br/> unmatched versatility. From grand occasions to everyday wear, <br/> sarees hold a special place in the hearts of millions, <br/> transcending generations and cultural boundaries with their <br/> exquisite beauty.");
 
         // Add components to the frame
         getContentPane().add(label1);

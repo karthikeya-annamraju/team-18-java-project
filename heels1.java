@@ -4,15 +4,15 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class Saree1 extends JFrame {
-    public Saree1() {
-        setTitle("saree");
+public class heels1 extends JFrame {
+    public heels1() {
+        setTitle("HEELS");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setSize(500, 700);
         setLayout(null);
 
-        ImageIcon choco1 = new ImageIcon("images/saree1.jpg");
+        ImageIcon choco1 = new ImageIcon("images/heel1.jpg");
 
         //creating buttons
         JButton button = createButton("BUY NOW");
@@ -21,12 +21,12 @@ public class Saree1 extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Show a popup message when the button is clicked
-                JOptionPane.showMessageDialog(Saree1.this , "YOU SUCCESSFULLY BOUGHT THIS ITEM!!");
+                JOptionPane.showMessageDialog(heels1.this , "YOU SUCCESSFULLY BOUGHT THIS ITEM!!");
             }
         });
 
         // Create labels
-        JLabel label1 = createLabel1("SAREE");
+        JLabel label1 = createLabel1("HEELS");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
         JLabel label3 = createLabel3("<html> Material composition : Banarasi Silk <br/> Weave : typeWoven <br/> Design : ameZari <br/> Length : 6 yards <br/> Occasion : typeFestival, Casual <br/> Pattern : Floral <br/> Country of Origin : India");
@@ -94,6 +94,6 @@ public class Saree1 extends JFrame {
 
     public static void main(String[] args) {
         // Create an instance of CategoriesFrame
-        SwingUtilities.invokeLater(Fashion_sarees::new);
+        SwingUtilities.invokeLater(Fashion_heels::new);
     }
 }
