@@ -4,15 +4,15 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class shoes1 extends JFrame {
-    public shoes1() {
-        setTitle("shoes");
+public class creams4 extends JFrame {
+    public creams4() {
+        setTitle("creams");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setSize(500, 700);
         setLayout(null);
 
-        ImageIcon choco1 = new ImageIcon("images/shoes1.jpg");
+        ImageIcon choco1 = new ImageIcon("images/cream4.jpg");
 
         //creating buttons
         JButton button = createButton("BUY NOW");
@@ -21,16 +21,16 @@ public class shoes1 extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Show a popup message when the button is clicked
-                JOptionPane.showMessageDialog(shoes1.this , "YOU SUCCESSFULLY BOUGHT THIS ITEM!!");
+                JOptionPane.showMessageDialog(creams4.this , "YOU SUCCESSFULLY BOUGHT THIS ITEM!!");
             }
         });
 
         // Create labels
-        JLabel label1 = createLabel1("SHOES");
+        JLabel label1 = createLabel1("PERFUME");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Material type : Polyurethane <br/> Closure type : Lace-Up <br/> Heel type : Flat <br/> Water resistance level : Not Water Resistant <br/> Sole material : Rubber <br/> Style : Sports Sneakers <br/> Country of Origin : India");
-        JLabel label4 = createLabel4("<html> Shoes are an essential accessory for every wardrobe, providing <br/> both fashion and function to complete any outfit. From casual <br/> sneakers to elegant heels, shoes come in a myriad of styles, <br/> materials, and designs, catering to diverse tastes and <br/> occasions.");
+        JLabel label3 = createLabel3("<html> Brand : Yardley <br/> Item Form : Liquid <br/> Item Volume : 398 Millilitres <br/> Scent : Ultra Sensual <br/> Special Feature : Long Lasting");
+        JLabel label4 = createLabel4("<html> Perfumes are more than just fragrances; they're an olfactory <br/> journey that transports you to different places, evokes <br/> memories, and enhances your mood. With their unique blends <br/> of aromatic notes, perfumes have the power to captivate the <br/> senses and leave a lasting impression, making them an essential <br/> accessory for anyone who wants to make a statement.");
 
         // Add components to the frame
         getContentPane().add(label1);
@@ -50,7 +50,7 @@ public class shoes1 extends JFrame {
         JLabel label1 = new JLabel(text);
         label1.setHorizontalTextPosition(JLabel.CENTER);
         label1.setVerticalTextPosition(JLabel.TOP);
-        label1.setBounds(190, 30, 450, 60);
+        label1.setBounds(160, 30, 450, 60);
         label1.setBackground(new Color(255, 190, 152));
         label1.setForeground(new Color(28,22,120));
         label1.setFont(new Font("MV Boli",Font.BOLD,30));
@@ -94,6 +94,6 @@ public class shoes1 extends JFrame {
 
     public static void main(String[] args) {
         // Create an instance of CategoriesFrame
-        SwingUtilities.invokeLater(Fashion_shoes::new);
+        SwingUtilities.invokeLater(Cosmetics_creams::new);
     }
 }

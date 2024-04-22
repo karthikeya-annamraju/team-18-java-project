@@ -1,7 +1,7 @@
 import java.awt.Color;
 import java.awt.Font;
-// import java.awt.event.ActionEvent;
-// import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import javax.swing.*;
 
 public class Cosmetics_creams extends JFrame {
@@ -26,6 +26,37 @@ public class Cosmetics_creams extends JFrame {
         button3.setIcon(choco3);
         JButton button4 = createButton(250,345);
         button4.setIcon(choco4);
+
+        button1.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Open frame for Electronic Devices
+               creams1 creamss1 = new creams1();
+               creamss1.setVisible(true);
+            }
+        });
+
+        button2.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                creams2 creamss2 = new creams2();
+               creamss2.setVisible(true);
+            }
+        });
+
+        button3.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Open frame for Electronic Devices
+                creams3 creamss3 = new creams3();
+               creamss3.setVisible(true);
+            }
+        });
+
+        button4.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Open frame for Electronic Devices
+                creams4 creamss4 = new creams4();
+               creamss4.setVisible(true);
+            }
+        });
         
         // Create labels
         JLabel label1 = createLabel1("CHOOSE BRAND");

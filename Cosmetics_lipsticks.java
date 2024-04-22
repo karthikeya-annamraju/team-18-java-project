@@ -1,7 +1,7 @@
 import java.awt.Color;
 import java.awt.Font;
-// import java.awt.event.ActionEvent;
-// import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import javax.swing.*;
 
 public class Cosmetics_lipsticks extends JFrame {
@@ -27,6 +27,37 @@ public class Cosmetics_lipsticks extends JFrame {
         JButton button4 = createButton(250,345);
         button4.setIcon(choco4);
         
+        button1.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Open frame for Electronic Devices
+               lipstick1 lipsticks1 = new lipstick1();
+               lipsticks1.setVisible(true);
+            }
+        });
+
+        button2.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                lipstick2 lipsticks2 = new lipstick2();
+               lipsticks2.setVisible(true);
+            }
+        });
+
+        button3.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Open frame for Electronic Devices
+                lipstick3 lipsticks3 = new lipstick3();
+               lipsticks3.setVisible(true);
+            }
+        });
+
+        button4.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Open frame for Electronic Devices
+                lipstick4 lipsticks4 = new lipstick4();
+               lipsticks4.setVisible(true);
+            }
+        });
+
         // Create labels
         JLabel label1 = createLabel1("CHOOSE BRAND");
         JLabel label2 = createLabel2("Happy customers, happy business.");

@@ -29,8 +29,8 @@ public class heels4 extends JFrame {
         JLabel label1 = createLabel1("HEELS");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Material composition : Banarasi Silk <br/> Weave : typeWoven <br/> Design : ameZari <br/> Length : 6 yards <br/> Occasion : typeFestival, Casual <br/> Pattern : Floral <br/> Country of Origin : India");
-        JLabel label4 = createLabel4("<html> Sarees, the epitome of traditional Indian attire, are cherished <br/> for their timeless elegance, intricate craftsmanship, and <br/> unmatched versatility. From grand occasions to everyday wear, <br/> sarees hold a special place in the hearts of millions, <br/> transcending generations and cultural boundaries with their <br/> exquisite beauty.");
+        JLabel label3 = createLabel3("<html> Closure type : Buckle <br/> Heel type : Stiletto <br/> Water resistance level : Waterproof <br/> Style : Fashion Sandal <br/> Outer material : Synthetic <br/> Country of Origin : India");
+        JLabel label4 = createLabel4("<html> Heels, the epitome of feminine footwear, are beloved by <br/> fashion enthusiasts worldwide for their ability to add height, <br/> sophistication, and glamour to any ensemble. From classic <br/> pumps to strappy sandals, heels come in a variety of styles, <br/> heights, and designs, offering endless possibilities for <br/> self-expression and personal style.");
 
         // Add components to the frame
         getContentPane().add(label1);
