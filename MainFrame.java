@@ -18,7 +18,7 @@ public class MainFrame{
         ImageIcon image4 = new ImageIcon("images/image4.jpg");
 
         JButton button = new JButton();
-        button.setText("click here to view products!!");
+        button.setText("Click Here To View Products");
         button.setFocusable(false);
         //button.addActionListener(e -> System.out.println("hello"));
         button.addActionListener(new ActionListener() {
@@ -32,11 +32,11 @@ public class MainFrame{
         button.setFont(new Font("Comic Sans",Font.BOLD,15));
 
         JLabel label1 = new JLabel();
-        label1.setText("hello customers welcome to shopping cart!!");
+        label1.setText("Hello Customers ! Welcome to Shopping Cart.");
         label1.setHorizontalTextPosition(JLabel.CENTER);
         label1.setVerticalTextPosition(JLabel.TOP);
         label1.setForeground(new Color(28,22,120));
-        label1.setFont(new Font("MV Boli",Font.PLAIN,20));
+        label1.setFont(new Font("Times New Roman",Font.PLAIN,20));
         JLabel label2 = new JLabel();
         label2.setIcon(image1);
         JLabel label3 = new JLabel();
@@ -78,7 +78,7 @@ public class MainFrame{
         click.setBackground(new Color(204, 229, 255));
 
         JFrame frame = new JFrame();
-        frame.setTitle("online shopping");
+        frame.setTitle("Online Shopping");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
         frame.setVisible(true);

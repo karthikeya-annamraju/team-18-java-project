@@ -50,7 +50,7 @@ public class CategoriesFrame extends JFrame {
 
         // Create labels
         JLabel label1 = createLabel1("CATEGORIES");
-        JLabel label2 = createLabel2("Your most unhappy customers are your greatest source of learning.");
+        //JLabel label2 = createLabel2("Your most unhappy customers are your greatest source of learning.");
         
         // Add components to the frame
         getContentPane().add(label1);
@@ -83,7 +83,7 @@ public class CategoriesFrame extends JFrame {
         label1.setBounds(105, 45, 450, 60);
         label1.setBackground(new Color(255, 190, 152));
         label1.setForeground(new Color(28,22,120));
-        label1.setFont(new Font("MV Boli",Font.BOLD,40));
+        label1.setFont(new Font("Times New Roman",Font.BOLD,40));
         return label1;
     }
     private JLabel createLabel2(String text) {
@@ -93,7 +93,7 @@ public class CategoriesFrame extends JFrame {
         label2.setBounds(50, 550, 400, 40);
         label2.setBackground(new Color(254, 236, 226));
         label2.setForeground(new Color(19, 93, 102));
-        label2.setFont(new Font("MV Boli",Font.PLAIN,12));
+        label2.setFont(new Font("Times New Roman",Font.PLAIN,12));
         return label2;
     }
     public static void main(String[] args) {

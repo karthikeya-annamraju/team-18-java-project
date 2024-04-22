@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 public class Cosmetics extends JFrame {
     public Cosmetics() {
-        setTitle("fashion wear");
+        setTitle("Fashion Wear");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setSize(500, 700);
@@ -81,7 +81,7 @@ public class Cosmetics extends JFrame {
         label1.setBounds(120,45, 450, 60);
         label1.setBackground(new Color(255, 190, 152));
         label1.setForeground(new Color(28,22,120));
-        label1.setFont(new Font("MV Boli",Font.BOLD,40));
+        label1.setFont(new Font("Times New Roman",Font.BOLD,40));
         return label1;
     }
     private JLabel createLabel2(String text) {
@@ -91,7 +91,7 @@ public class Cosmetics extends JFrame {
         label2.setBounds(40, 550, 400, 40);
         label2.setBackground(new Color(254, 236, 226));
         label2.setForeground(new Color(19, 93, 102));
-        label2.setFont(new Font("MV Boli",Font.PLAIN,18));
+        label2.setFont(new Font("Times New Roman",Font.PLAIN,18));
         return label2;
     }
     public static void main(String[] args) {

@@ -30,4 +30,5 @@ public class JDBCsqlConnectionTest {
         e.printStackTrace();
     }
     }
+    // locate the jar file on your computer using classpath command to connect to the database.
 }
