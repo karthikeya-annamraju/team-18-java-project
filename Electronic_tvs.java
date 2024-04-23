@@ -1,7 +1,7 @@
 import java.awt.Color;
 import java.awt.Font;
-// import java.awt.event.ActionEvent;
-// import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import javax.swing.*;
 
 public class Electronic_tvs extends JFrame {
@@ -26,6 +26,38 @@ public class Electronic_tvs extends JFrame {
         button3.setIcon(choco3);
         JButton button4 = createButton(250,345);
         button4.setIcon(choco4);
+
+        button1.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Open frame for Electronic Devices
+               tv1 tvs1 = new tv1();
+               tvs1.setVisible(true);
+            }
+        });
+
+        button2.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Open frame for Electronic Devices
+                tv2 tvs2 = new tv2();
+               tvs2.setVisible(true);
+            }
+        });
+
+        button3.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Open frame for Electronic Devices
+                tv3 tvs3 = new tv3();
+                tvs3.setVisible(true);
+            }
+        });
+
+        button4.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Open frame for Electronic Devices
+                tv4 tvs4 = new tv4();
+                tvs4.setVisible(true);
+            }
+        });
         
         // Create labels
         JLabel label1 = createLabel1("CHOOSE BRAND");
