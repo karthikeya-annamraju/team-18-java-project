@@ -9,7 +9,7 @@ public class JDBCsqlConnectionTest {
     
     // JDBC and database properties.
     private static final String DB_DRIVER = "com.mysql.jdbc.Driver";
-    private static final String DB_URL ="jdbc:mysql://localhost:3306/w3spoint";
+    private static final String DB_URL ="jdbc:mysql://localhost:3306/team18project";
     private static final String DB_USERNAME = "root";
     private static final String DB_PASSWORD = "root";
     public static void main(String args[]){

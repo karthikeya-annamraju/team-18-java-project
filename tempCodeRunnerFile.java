@@ -4,8 +4,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class lipstick1 extends JFrame {
-    public lipstick1() {
+public class tempCodeRunnerFile extends JFrame {
+    public tempCodeRunnerFile() {
         setTitle("LIPSTICK");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
@@ -21,7 +21,7 @@ public class lipstick1 extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Show a popup message when the button is clicked
-                JOptionPane.showMessageDialog(lipstick1.this , "YOU SUCCESSFULLY BOUGHT THIS ITEM!!");
+                JOptionPane.showMessageDialog(tempCodeRunnerFile.this , "YOU SUCCESSFULLY BOUGHT THIS ITEM!!");
             }
         });
 
