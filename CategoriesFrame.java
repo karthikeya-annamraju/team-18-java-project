@@ -50,7 +50,7 @@ public class CategoriesFrame extends JFrame {
 
         // Create labels
         JLabel label1 = createLabel1("CATEGORIES");
-        //JLabel label2 = createLabel2("Your most unhappy customers are your greatest source of learning.");
+        JLabel label2 = createLabel2("Your most unhappy customers are your greatest source of learning.");
         
         // Add components to the frame
         getContentPane().add(label1);

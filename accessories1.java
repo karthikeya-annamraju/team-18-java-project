@@ -4,15 +4,15 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class creams4 extends JFrame {
-    public creams4() {
-        setTitle("creams");
+public class accessories1 extends JFrame {
+    public accessories1() {
+        setTitle("accessories");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setSize(500, 700);
         setLayout(null);
 
-        ImageIcon choco1 = new ImageIcon("images/cream4.jpg");
+        ImageIcon choco1 = new ImageIcon("images/accessories1.jpg");
 
         //creating buttons
         JButton button = createButton("BUY NOW");
@@ -21,16 +21,16 @@ public class creams4 extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Show a popup message when the button is clicked
-                JOptionPane.showMessageDialog(creams4.this , "YOU SUCCESSFULLY BOUGHT THIS ITEM!!");
+                JOptionPane.showMessageDialog(accessories1.this , "YOU SUCCESSFULLY BOUGHT THIS ITEM!!");
             }
         });
 
         // Create labels
-        JLabel label1 = createLabel1("FOUNDATION");
+        JLabel label1 = createLabel1("EARRINGS");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> tem Form : Liquid <br/> Colour Ivory : 1N <br/> Skin Type : Dry <br/> Finish Type : Matte, Natural <br/> Recommended Uses For Product : face <br/> Material Type Free : Alcohol Free <br/> Package Information : Bottle");
-        JLabel label4 = createLabel4("<html> Foundation is the cornerstone of any makeup routine, <br/> providing coverage, evenness, and a smooth canvas for the rest <br/> of your makeup. With its versatile formulas, wide range of <br/> shades, and customizable coverage options, foundation allows <br/> you to create a flawless complexion tailored to your individual <br/> skin type, tone, and preferences.");
+        JLabel label3 = createLabel3("<html> Material : typeNon-Precious Metal <br/> Metal type : Brass <br/> Gem type : Cubic Zirconia <br/> Occasion type : Wedding <br/> Item type name : Stud Earrings <br/> Country of Origin : India");
+        JLabel label4 = createLabel4("<html> Earrings are more than just accessories; they're a reflection of <br/> your personality, style, and individuality. From classic studs to <br/> statement chandeliers, earrings come in a variety of styles, <br/> materials, and designs, allowing you to express yourself and <br/> elevate any outfit with ease.");
 
         // Add components to the frame
         getContentPane().add(label1);
@@ -50,7 +50,7 @@ public class creams4 extends JFrame {
         JLabel label1 = new JLabel(text);
         label1.setHorizontalTextPosition(JLabel.CENTER);
         label1.setVerticalTextPosition(JLabel.TOP);
-        label1.setBounds(135, 30, 450, 60);
+        label1.setBounds(150, 30, 450, 60);
         label1.setBackground(new Color(255, 190, 152));
         label1.setForeground(new Color(28,22,120));
         label1.setFont(new Font("MV Boli",Font.BOLD,30));
@@ -94,6 +94,6 @@ public class creams4 extends JFrame {
 
     public static void main(String[] args) {
         // Create an instance of CategoriesFrame
-        SwingUtilities.invokeLater(Cosmetics_creams::new);
+        SwingUtilities.invokeLater(Cosmetics_accessories::new);
     }
 }

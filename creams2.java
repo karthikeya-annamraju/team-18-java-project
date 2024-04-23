@@ -26,11 +26,11 @@ public class creams2 extends JFrame {
         });
 
         // Create labels
-        JLabel label1 = createLabel1("PERFUME");
+        JLabel label1 = createLabel1("MOISTURIZER");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Brand : Yardley <br/> Item Form : Liquid <br/> Item Volume : 398 Millilitres <br/> Scent : Ultra Sensual <br/> Special Feature : Long Lasting");
-        JLabel label4 = createLabel4("<html> Perfumes are more than just fragrances; they're an olfactory <br/> journey that transports you to different places, evokes <br/> memories, and enhances your mood. With their unique blends <br/> of aromatic notes, perfumes have the power to captivate the <br/> senses and leave a lasting impression, making them an essential <br/> accessory for anyone who wants to make a statement.");
+        JLabel label3 = createLabel3("<html> Brand : Neutrogena <br/> Scent : Unscented <br/> Item Form : Gel <br/> Net Quantity : 50.0 gram <br/> Number of Items : 1 <br/> Use for : Face <br/> Skin Type : All");
+        JLabel label4 = createLabel4("<html> Moisturizer is a skincare essential that provides hydration, <br/> nourishment, and protection to your skin, leaving it feeling <br/> soft, smooth, and radiant. With its lightweight formulas, <br/> replenishing ingredients, and customizable options, moisturizer <br/> is a versatile product that caters to a wide range of skin <br/> types and concerns, making it an indispensable part of your <br/> daily skincare routine.");
 
         // Add components to the frame
         getContentPane().add(label1);
@@ -50,7 +50,7 @@ public class creams2 extends JFrame {
         JLabel label1 = new JLabel(text);
         label1.setHorizontalTextPosition(JLabel.CENTER);
         label1.setVerticalTextPosition(JLabel.TOP);
-        label1.setBounds(160, 30, 450, 60);
+        label1.setBounds(130, 30, 450, 60);
         label1.setBackground(new Color(255, 190, 152));
         label1.setForeground(new Color(28,22,120));
         label1.setFont(new Font("MV Boli",Font.BOLD,30));
