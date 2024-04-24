@@ -29,7 +29,7 @@ public class lipstick1 extends JFrame {
         JLabel label1 = createLabel1("LIPSTICK");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Colour : 08 Spring Flower (Pink Peach) <br/> Skin Type : All <br/> Item Form : Cream <br/> Finish Type : Matte <br/> Product Benefits : Waterproof <br/> Special Ingredients	: rose oil");
+        JLabel label3 = createLabel3("<html> Colour : 08 Spring Flower (Pink Peach) <br/> Skin Type : All <br/> Item Form : Cream <br/> Finish Type : Matte <br/> Product Benefits : Waterproof <br/> PRICE : 899/-");
         JLabel label4 = createLabel4("<html> Lipsticks are more than just makeup; they're a statement of <br/> confidence, individuality, and personal style. With their rich <br/> pigments, creamy textures, and long-lasting formulas, lipsticks <br/> have the power to transform your look and elevate your mood, <br/> no matter the occasion.");
 
         // Add components to the frame

@@ -64,7 +64,7 @@ public class chocolate2 extends JFrame {
         JLabel label1 = createLabel1("KIT KAT");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Brand : Nestle <br/> Item Form : Bar <br/> Chocolate Type : Milk <br/> Flavour : Chocolate <br/> Net Quantity	: 146.0 gram <br/> Diet Type : Vegetarian");
+        JLabel label3 = createLabel3("<html> Brand : Nestle <br/> Item Form : Bar <br/> Chocolate Type : Milk <br/> Flavour : Chocolate <br/> Net Quantity	: 146.0 gram <br/> Diet Type : Vegetarian <br/> PRICE : 100/-");
         JLabel label4 = createLabel4("<html> Indulge in a rich, smooth, and creamy celebration. Cadbury <br/> Silk Ganache is a decadent chocolate experience with rich <br/> cocoa notes that you can indulge in. This milk chocolate <br/> bar is a perfect sweet to indulge in all alone or as a chocolate <br/> gift pack for gifting on special occasions like birthdays and <br/> get-togethers. Every bar of nestle kit kat chocolate is made <br/> from 100% sustainably sourced cocoa. It is suitable for <br/> vegetarians.");
 
         // Add components to the frame

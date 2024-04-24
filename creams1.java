@@ -29,8 +29,8 @@ public class creams1 extends JFrame {
         JLabel label1 = createLabel1("SUNSCREEN");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Brand : Yardley <br/> Item Form : Liquid <br/> Item Volume : 398 Millilitres <br/> Scent : Ultra Sensual <br/> Special Feature : Long Lasting");
-        JLabel label4 = createLabel4("<html> Perfumes are more than just fragrances; they're an olfactory <br/> journey that transports you to different places, evokes <br/> memories, and enhances your mood. With their unique blends <br/> of aromatic notes, perfumes have the power to captivate the <br/> senses and leave a lasting impression, making them an essential <br/> accessory for anyone who wants to make a statement.");
+        JLabel label3 = createLabel3("<html>  Item Weight : 50 Grams <br/> Number of Items : 1 <br/> Net Quantity : 50.0 gram <br/> Skin Type : All <br/> Item Dimensions LxWxH : 6.5 x 6.5 x 13 Centimeters <br/> Brand : The Derma Co <br/> PRICE : 899/-");
+        JLabel label4 = createLabel4("<html> Sunscreen is more than just a skincare product; it's your first <br/> line of defense against the damaging effects of the sun's <br/> ultraviolet (UV) rays. With its broad spectrum protection, <br/> lightweight formulas, and skin-nourishing ingredients, sunscreen not only helps prevent sunburn but also reduces the risk of skin cancer and premature aging, making it <br/> an essential part of your daily skincare routine.");
 
         // Add components to the frame
         getContentPane().add(label1);

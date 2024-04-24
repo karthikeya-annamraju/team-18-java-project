@@ -29,7 +29,7 @@ public class perfume2 extends JFrame {
         JLabel label1 = createLabel1("PERFUME");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Brand : Fogg <br/> Item Form : Liquid <br/> Item Volume : 398 Millilitres <br/> Scent : Ultra Sensual <br/> Special Feature : Long Lasting");
+        JLabel label3 = createLabel3("<html> Brand : Fogg <br/> Item Form : Liquid <br/> Item Volume : 398 Millilitres <br/> Scent : Ultra Sensual <br/> Special Feature : Long Lasting <br/> PRICE : 899/-");
         JLabel label4 = createLabel4("<html> Perfumes are more than just fragrances; they're an olfactory <br/> journey that transports you to different places, evokes <br/> memories, and enhances your mood. With their unique blends <br/> of aromatic notes, perfumes have the power to captivate the <br/> senses and leave a lasting impression, making them an essential <br/> accessory for anyone who wants to make a statement.");
 
         // Add components to the frame

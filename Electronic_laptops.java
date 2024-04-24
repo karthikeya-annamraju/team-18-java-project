@@ -1,7 +1,7 @@
 import java.awt.Color;
 import java.awt.Font;
-// import java.awt.event.ActionEvent;
-// import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import javax.swing.*;
 
 public class Electronic_laptops extends JFrame {
@@ -26,6 +26,38 @@ public class Electronic_laptops extends JFrame {
         button3.setIcon(choco3);
         JButton button4 = createButton(250,345);
         button4.setIcon(choco4);
+
+        button1.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Open frame for Electronic Devices
+                laptops1 laptop1 = new laptops1();
+                laptop1.setVisible(true);
+            }
+        });
+
+        button2.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Open frame for Electronic Devices
+                laptops2 laptop2 = new laptops2();
+                laptop2.setVisible(true);
+            }
+        });
+
+        button3.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Open frame for Electronic Devices
+               laptops3 laptop3 = new laptops3();
+               laptop3.setVisible(true);
+            }
+        });
+
+        button4.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Open frame for Electronic Devices
+               laptops4 laptop4 = new laptops4();
+               laptop4.setVisible(true);
+            }
+        });
         
         // Create labels
         JLabel label1 = createLabel1("CHOOSE BRAND");

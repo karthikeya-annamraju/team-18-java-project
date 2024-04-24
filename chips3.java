@@ -61,7 +61,7 @@ public class chips3 extends JFrame {
         JLabel label1 = createLabel1("TOO YUMM");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Brand : Too Yumm <br/> Net Quantity : 50.0 gram <br/> Number of Items : 1 <br/> Type : Potato Chip <br/Diet Type : Vegetarian <br/> Item Form : Chips <br/> Item Weight : 50 Grams");
+        JLabel label3 = createLabel3("<html> Brand : Too Yumm <br/> Net Quantity : 50.0 gram <br/> Number of Items : 1 <br/> Type : Potato Chip <br/Diet Type : Vegetarian <br/> Item Form : Chips <br/> Item Weight : 50 Grams <br/> PRICE : 100/-");
         JLabel label4 = createLabel4("<html> Chips, also known as crisps in some regions, are a beloved snack <br/> enjoyed by millions worldwide for their irresistible crunch, bold <br/> flavors, and satisfyingly savory taste. Whether enjoyed as a <br/> quick bite between meals, a party snack, or a movie-night <br/> treat, chips offer a delightful snacking experience that appeals <br/> to all ages.");
 
         // Add components to the frame

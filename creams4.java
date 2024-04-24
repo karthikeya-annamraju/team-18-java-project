@@ -26,11 +26,11 @@ public class creams4 extends JFrame {
         });
 
         // Create labels
-        JLabel label1 = createLabel1("PERFUME");
+        JLabel label1 = createLabel1("FOUNDATION");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Brand : Yardley <br/> Item Form : Liquid <br/> Item Volume : 398 Millilitres <br/> Scent : Ultra Sensual <br/> Special Feature : Long Lasting");
-        JLabel label4 = createLabel4("<html> Perfumes are more than just fragrances; they're an olfactory <br/> journey that transports you to different places, evokes <br/> memories, and enhances your mood. With their unique blends <br/> of aromatic notes, perfumes have the power to captivate the <br/> senses and leave a lasting impression, making them an essential <br/> accessory for anyone who wants to make a statement.");
+        JLabel label3 = createLabel3("<html> tem Form : Liquid <br/> Colour Ivory : 1N <br/> Skin Type : Dry <br/> Finish Type : Matte, Natural <br/> Recommended Uses For Product : face <br/> PRICE : 899/-");
+        JLabel label4 = createLabel4("<html> Foundation is the cornerstone of any makeup routine, <br/> providing coverage, evenness, and a smooth canvas for the rest <br/> of your makeup. With its versatile formulas, wide range of <br/> shades, and customizable coverage options, foundation allows <br/> you to create a flawless complexion tailored to your individual <br/> skin type, tone, and preferences.");
 
         // Add components to the frame
         getContentPane().add(label1);
@@ -50,7 +50,7 @@ public class creams4 extends JFrame {
         JLabel label1 = new JLabel(text);
         label1.setHorizontalTextPosition(JLabel.CENTER);
         label1.setVerticalTextPosition(JLabel.TOP);
-        label1.setBounds(160, 30, 450, 60);
+        label1.setBounds(135, 30, 450, 60);
         label1.setBackground(new Color(255, 190, 152));
         label1.setForeground(new Color(28,22,120));
         label1.setFont(new Font("MV Boli",Font.BOLD,30));

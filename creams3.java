@@ -26,11 +26,11 @@ public class creams3 extends JFrame {
         });
 
         // Create labels
-        JLabel label1 = createLabel1("PERFUME");
+        JLabel label1 = createLabel1("PRIMER");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Brand : Yardley <br/> Item Form : Liquid <br/> Item Volume : 398 Millilitres <br/> Scent : Ultra Sensual <br/> Special Feature : Long Lasting");
-        JLabel label4 = createLabel4("<html> Perfumes are more than just fragrances; they're an olfactory <br/> journey that transports you to different places, evokes <br/> memories, and enhances your mood. With their unique blends <br/> of aromatic notes, perfumes have the power to captivate the <br/> senses and leave a lasting impression, making them an essential <br/> accessory for anyone who wants to make a statement.");
+        JLabel label3 = createLabel3("<html> Brand : SWISS BEAUTY <br/> Coverage : Sheer <br/> Item Form : Cream <br/> Skin Type : Normal <br/> Package Information : Bottle <br/> PRICE : 899/-");
+        JLabel label4 = createLabel4("<html> Primer is a makeup essential that lays the foundation for a <br/> flawless, long-lasting makeup look. With its silky-smooth <br/> texture, pore-minimizing properties, and skin-perfecting <br/> benefits, primer preps the skin for makeup application, <br/> ensuring that your makeup stays fresh and vibrant throughout <br/> the day.");
 
         // Add components to the frame
         getContentPane().add(label1);
@@ -50,7 +50,7 @@ public class creams3 extends JFrame {
         JLabel label1 = new JLabel(text);
         label1.setHorizontalTextPosition(JLabel.CENTER);
         label1.setVerticalTextPosition(JLabel.TOP);
-        label1.setBounds(160, 30, 450, 60);
+        label1.setBounds(170, 30, 450, 60);
         label1.setBackground(new Color(255, 190, 152));
         label1.setForeground(new Color(28,22,120));
         label1.setFont(new Font("MV Boli",Font.BOLD,30));
