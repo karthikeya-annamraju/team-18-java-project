@@ -3,6 +3,7 @@ import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
+import java.sql.*;
 
 public class Shirts1 extends JFrame {
     public Shirts1() {
@@ -20,8 +21,38 @@ public class Shirts1 extends JFrame {
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Show a popup message when the button is clicked
-                JOptionPane.showMessageDialog(Shirts1.this , "YOU SUCCESSFULLY BOUGHT THIS ITEM!!");
+                
+                try {
+                    // Establish a connection to stockCountbase
+                    Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/team18project", "root", "root");
+
+                    // Create a Statement
+                    Statement statement = connection.createStatement();
+
+                    // Execute SQL query
+                    int writeQuery = statement.executeUpdate("UPDATE shirts SET stock = stock - 1 WHERE shirt_name = 'Shirt1'");
+                    
+                    ResultSet resultSet = statement.executeQuery("SELECT stock from shirts WHERE shirt_name = 'Shirt1'");
+
+                    // ResultSet to print the value of stock
+                    while (resultSet.next()) {
+                        // Example: Retrieve data from the ResultSet
+                        int stockCount = resultSet.getInt("stock");
+                        if (stockCount > 0)  {
+                            System.out.println("Remaining Stock(Shirt1): "+stockCount);
+                            JOptionPane.showMessageDialog(Shirts1.this , "YOU SUCCESSFULLY BOUGHT THIS ITEM!!");
+                        }
+                        else {
+                            JOptionPane.showMessageDialog(Shirts1.this , "THIS ITEM IS OUT OF STOCK");
+                        }
+                    }
+
+                    resultSet.close();
+                    statement.close();
+                    connection.close();
+                } catch (SQLException ex) {
+                    ex.printStackTrace();
+                }
             }
         });
 
