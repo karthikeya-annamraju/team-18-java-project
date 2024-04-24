@@ -29,7 +29,7 @@ public class accessories2 extends JFrame {
         JLabel label1 = createLabel1("BRACELET");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Material type : Crystal <br/> Metal type : Rose Gold <br/> Clasp type : Lobster Claw <br/> Size : Adjustable <br/> Gem type : Cubic Zirconia <br/> Country of Origin : India");
+        JLabel label3 = createLabel3("<html> Material type : Crystal <br/> Metal type : Rose Gold <br/> Clasp type : Lobster Claw <br/> Size : Adjustable <br/> Gem type : Cubic Zirconia <br/> PRICE : 899/-");
         JLabel label4 = createLabel4("<html> Bracelets are more than just accessories; they're a reflection <br/> of your personality, a statement of your style, and a <br/> celebration of your individuality. From classic bangles to <br/> trendy cuffs, bracelets come in a variety of styles, materials, <br/> and designs, allowing you to express yourself and add a touch <br/> of elegance and sophistication to any ensemble.");
 
         // Add components to the frame

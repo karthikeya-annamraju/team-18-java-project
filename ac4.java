@@ -12,7 +12,7 @@ public class ac4 extends JFrame {
         setSize(500, 700);
         setLayout(null);
 
-        ImageIcon choco1 = new ImageIcon("images/ac4.jpg");
+        ImageIcon choco1 = new ImageIcon("images/acs4.jpg");
 
         //creating buttons
         JButton button = createButton("BUY NOW");
@@ -26,11 +26,11 @@ public class ac4 extends JFrame {
         });
 
         // Create labels
-        JLabel label1 = createLabel1("ASUS LAPTOP");
+        JLabel label1 = createLabel1("MITSUBISHI AC");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Brand : ASUS <br/> Model Name : ASUS Vivobook <br/> Screen Size : 14 Inches <br/> Colour : Star Black <br/> CPU Model : Celeron N4020 <br/> RAM Memory Size : 8 GB");
-        JLabel label4 = createLabel4("<html> Laptops have become essential tools for modern life, providing <br/> users with the power, portability, and versatility to work, <br/> learn, and create wherever they go. With their sleek designs, <br/> advanced features, and cutting-edge technology, laptops offer <br/> a convenient and efficient way to stay connected, productive, <br/> and entertained in today's fast-paced world.");
+        JLabel label3 = createLabel3("<html> Brand : Mitsubishi <br/> Capacity : 1.5 Tons <br/> Cooling Power : 18000 British Thermal Units <br/> Special Feature : Dust Filter, Anti-bacterial Filter <br/> PRICE : 49999/-");
+        JLabel label4 = createLabel4("<html> Air conditioners, commonly known as ACs, have become <br/> essential appliances for maintaining a comfortable indoor <br/> environment, regardless of the weather outside. With their <br/> ability to cool, dehumidify, and filter the air, ACs provide <br/> relief from the heat and humidity, creating a comfortable and <br/> healthy living space for you and your family.");
     
         // Add components to the frame
         getContentPane().add(label1);
@@ -50,7 +50,7 @@ public class ac4 extends JFrame {
         JLabel label1 = new JLabel(text);
         label1.setHorizontalTextPosition(JLabel.CENTER);
         label1.setVerticalTextPosition(JLabel.TOP);
-        label1.setBounds(130, 30, 450, 60);
+        label1.setBounds(120, 30, 450, 60);
         label1.setBackground(new Color(255, 190, 152));
         label1.setForeground(new Color(28,22,120));
         label1.setFont(new Font("MV Boli",Font.BOLD,30));

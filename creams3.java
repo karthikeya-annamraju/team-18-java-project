@@ -29,7 +29,7 @@ public class creams3 extends JFrame {
         JLabel label1 = createLabel1("PRIMER");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Brand : SWISS BEAUTY <br/> Coverage : Sheer <br/> Item Form : Cream <br/> Skin Type : Normal <br/> Package Information : Bottle <br/> Finish Type : Luminous");
+        JLabel label3 = createLabel3("<html> Brand : SWISS BEAUTY <br/> Coverage : Sheer <br/> Item Form : Cream <br/> Skin Type : Normal <br/> Package Information : Bottle <br/> PRICE : 899/-");
         JLabel label4 = createLabel4("<html> Primer is a makeup essential that lays the foundation for a <br/> flawless, long-lasting makeup look. With its silky-smooth <br/> texture, pore-minimizing properties, and skin-perfecting <br/> benefits, primer preps the skin for makeup application, <br/> ensuring that your makeup stays fresh and vibrant throughout <br/> the day.");
 
         // Add components to the frame

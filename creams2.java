@@ -29,7 +29,7 @@ public class creams2 extends JFrame {
         JLabel label1 = createLabel1("MOISTURIZER");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Brand : Neutrogena <br/> Scent : Unscented <br/> Item Form : Gel <br/> Net Quantity : 50.0 gram <br/> Number of Items : 1 <br/> Use for : Face <br/> Skin Type : All");
+        JLabel label3 = createLabel3("<html> Brand : Neutrogena <br/> Scent : Unscented <br/> Item Form : Gel <br/> Net Quantity : 50.0 gram <br/> Number of Items : 1 <br/> Use for : Face <br/> PRICE : 899/-");
         JLabel label4 = createLabel4("<html> Moisturizer is a skincare essential that provides hydration, <br/> nourishment, and protection to your skin, leaving it feeling <br/> soft, smooth, and radiant. With its lightweight formulas, <br/> replenishing ingredients, and customizable options, moisturizer <br/> is a versatile product that caters to a wide range of skin <br/> types and concerns, making it an indispensable part of your <br/> daily skincare routine.");
 
         // Add components to the frame

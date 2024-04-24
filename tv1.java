@@ -12,7 +12,7 @@ public class tv1 extends JFrame {
         setSize(500, 700);
         setLayout(null);
 
-        ImageIcon choco1 = new ImageIcon("images/tv1.jpg");
+        ImageIcon choco1 = new ImageIcon("images/tvs1.jpg");
 
         //creating buttons
         JButton button = createButton("BUY NOW");
@@ -26,11 +26,11 @@ public class tv1 extends JFrame {
         });
 
         // Create labels
-        JLabel label1 = createLabel1("ASUS LAPTOP");
+        JLabel label1 = createLabel1("SAMSUNG TV");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Brand : ASUS <br/> Model Name : ASUS Vivobook <br/> Screen Size : 14 Inches <br/> Colour : Star Black <br/> CPU Model : Celeron N4020 <br/> RAM Memory Size : 8 GB");
-        JLabel label4 = createLabel4("<html> Laptops have become essential tools for modern life, providing <br/> users with the power, portability, and versatility to work, <br/> learn, and create wherever they go. With their sleek designs, <br/> advanced features, and cutting-edge technology, laptops offer <br/> a convenient and efficient way to stay connected, productive, <br/> and entertained in today's fast-paced world.");
+        JLabel label3 = createLabel3("<html> Screen Size : 43 Inches <br/> Brand : Samsung <br/> Internet Services : Netflix,Youtube <br/> Display Technology : LED <br/> Resolution : 4K <br/> PRICE : 49999/-");
+        JLabel label4 = createLabel4("<html> Televisions, commonly known as TVs, have evolved from simple <br/> boxes displaying moving images to sophisticated entertainment <br/> hubs that bring immersive experiences into your living room. <br/> With their stunning displays, advanced features, and innovative <br/> technologies, TVs offer an unparalleled viewing experience that <br/> captivates and entertains users of all ages.");
     
         // Add components to the frame
         getContentPane().add(label1);

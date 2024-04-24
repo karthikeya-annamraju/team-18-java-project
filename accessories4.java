@@ -29,7 +29,7 @@ public class accessories4 extends JFrame {
         JLabel label1 = createLabel1("CHAINS");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Clasp type : Lobster <br/> Material type : Brass <br/> Metal type : Gold Plated Brass <br/> Gem type : Zircon <br/> Occasion type : Christening <br/> Item type : Pendant Necklaces <br/> Country of Origin : India");
+        JLabel label3 = createLabel3("<html> Clasp type : Lobster <br/> Material type : Brass <br/> Metal type : Gold Plated Brass <br/> Gem type : Zircon <br/> Occasion type : Christening <br/> Item type : Pendant Necklaces <br/> PRICE : 899/-");
         JLabel label4 = createLabel4("<html> Chains are more than just jewelry; they're versatile accessories <br/> that add elegance, sophistication, and style to any outfit. <br/> From delicate chains to bold statement pieces, chains come in <br/> a variety of styles, materials, and designs, allowing you to <br/> express yourself and elevate your look with ease.");
 
         // Add components to the frame

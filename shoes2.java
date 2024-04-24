@@ -29,7 +29,7 @@ public class shoes2 extends JFrame {
         JLabel label1 = createLabel1("SHOES");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Material type : Polyurethane <br/> Closure type : Lace-Up <br/> Heel type : Flat <br/> Water resistance level : Not Water Resistant <br/> Sole material : Rubber <br/> Style : Sports Sneakers <br/> Country of Origin : India");
+        JLabel label3 = createLabel3("<html> Material type : Polyurethane <br/> Closure type : Lace-Up <br/> Heel type : Flat <br/> Water resistance level : Not Water Resistant <br/> Sole material : Rubber <br/> Style : Sports Sneakers <br/> PRICE : 1299/-");
         JLabel label4 = createLabel4("<html> Shoes are an essential accessory for every wardrobe, providing <br/> both fashion and function to complete any outfit. From casual <br/> sneakers to elegant heels, shoes come in a myriad of styles, <br/> materials, and designs, catering to diverse tastes and <br/> occasions.");
 
         // Add components to the frame

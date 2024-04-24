@@ -29,7 +29,7 @@ public class accessories3 extends JFrame {
         JLabel label1 = createLabel1("RINGS");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Ring size : Free Size <br/> Material type : Silver <br/> Metal type : Silver <br/> Gem type : Cubic Zirconia <br/> Occasion type : Eternity <br/> Country of Origin : India");
+        JLabel label3 = createLabel3("<html> Ring size : Free Size <br/> Material type : Silver <br/> Metal type : Silver <br/> Gem type : Cubic Zirconia <br/> Occasion type : Eternity <br/> PRICE : 899/-");
         JLabel label4 = createLabel4("<html> Rings are more than just jewelry; they're symbols of love, <br/> commitment, and personal style. From classic bands to <br/> sparkling gemstones, rings come in a variety of styles, <br/> materials, and designs, allowing you to express yourself and <br/> commemorate life's special moments with elegance and grace.");
 
         // Add components to the frame

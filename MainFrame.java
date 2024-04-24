@@ -36,7 +36,7 @@ public class MainFrame{
         label1.setHorizontalTextPosition(JLabel.CENTER);
         label1.setVerticalTextPosition(JLabel.TOP);
         label1.setForeground(new Color(28,22,120));
-        label1.setFont(new Font("Times New Roman",Font.PLAIN,20));
+        label1.setFont(new Font("Times New Roman",Font.PLAIN,22));
         JLabel label2 = new JLabel();
         label2.setIcon(image1);
         JLabel label3 = new JLabel();

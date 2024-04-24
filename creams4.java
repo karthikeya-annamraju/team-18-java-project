@@ -29,7 +29,7 @@ public class creams4 extends JFrame {
         JLabel label1 = createLabel1("FOUNDATION");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> tem Form : Liquid <br/> Colour Ivory : 1N <br/> Skin Type : Dry <br/> Finish Type : Matte, Natural <br/> Recommended Uses For Product : face <br/> Material Type Free : Alcohol Free <br/> Package Information : Bottle");
+        JLabel label3 = createLabel3("<html> tem Form : Liquid <br/> Colour Ivory : 1N <br/> Skin Type : Dry <br/> Finish Type : Matte, Natural <br/> Recommended Uses For Product : face <br/> PRICE : 899/-");
         JLabel label4 = createLabel4("<html> Foundation is the cornerstone of any makeup routine, <br/> providing coverage, evenness, and a smooth canvas for the rest <br/> of your makeup. With its versatile formulas, wide range of <br/> shades, and customizable coverage options, foundation allows <br/> you to create a flawless complexion tailored to your individual <br/> skin type, tone, and preferences.");
 
         // Add components to the frame

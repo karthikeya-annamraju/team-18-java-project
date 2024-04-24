@@ -29,7 +29,7 @@ public class laptops2 extends JFrame {
         JLabel label1 = createLabel1("LANOVO LAPTOP");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Brand : Lenovo <br/> Model Name : IdeaPad Slim 3 <br/> Screen Size : 15.6 Inches <br/> Colour : Arctic Grey <br/> Hard Disk Size : 512 GB <br/> CPU Model : Intel Core i5 <br/> RAM Memory Installed Size : 16 GB");
+        JLabel label3 = createLabel3("<html> Brand : Lenovo <br/> Model Name : IdeaPad Slim 3 <br/> Screen Size : 15.6 Inches <br/> Colour : Arctic Grey <br/> Hard Disk Size : 512 GB <br/> CPU Model : Intel Core i5 <br/> PRICE : 49999/-");
         JLabel label4 = createLabel4("<html> Laptops have become essential tools for modern life, providing <br/> users with the power, portability, and versatility to work, <br/> learn, and create wherever they go. With their sleek designs, <br/> advanced features, and cutting-edge technology, laptops offer <br/> a convenient and efficient way to stay connected, productive, <br/> and entertained in today's fast-paced world.");
 
         // Add components to the frame

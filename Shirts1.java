@@ -29,7 +29,7 @@ public class Shirts1 extends JFrame {
         JLabel label1 = createLabel1("SHIRT");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Material composition : 100% Cotton <br/> Pattern : Solid <br/> Fit type : Classic Fit <br/> Sleeve type : Long Sleeve <br/> Collar style : Normal Collar <br/> Length : Standard Length <br/> Country of Origin : India");
+        JLabel label3 = createLabel3("<html> Material composition : 100% Cotton <br/> Pattern : Solid <br/> Fit type : Classic Fit <br/> Sleeve type : Long Sleeve <br/> Collar style : Normal Collar <br/> Length : Standard Length <br/> PRICE : 1299/-");
         JLabel label4 = createLabel4("<html> Shirts are the cornerstone of any wardrobe, offering versatile, <br/> style, and comfort for both casual and formal occasions. From <br/> classic button-downs to trendy polo shirts, shirts come in a <br/> variety of styles, fabrics, and designs, catering to diverse <br/> tastes and preferences.");
 
         // Add components to the frame

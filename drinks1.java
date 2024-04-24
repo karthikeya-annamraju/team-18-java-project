@@ -29,7 +29,7 @@ public class drinks1 extends JFrame {
         JLabel label1 = createLabel1("SPRITE");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Brand : Sprite <br/> Item Form : Soft Drinks <br/> Number of Items : 1 <br/> Package Information : Bottle <br/> Item Volume : 600 Millilitres <br/> Net Quantity : 600 millilitre");
+        JLabel label3 = createLabel3("<html> Brand : Sprite <br/> Item Form : Soft Drinks <br/> Number of Items : 1 <br/> Package Information : Bottle <br/> Item Volume : 600 Millilitres <br/> PRICE : 100/-");
         JLabel label4 = createLabel4("<html> Soft drinks, also known as sodas or carbonated beverages, are <br/> beloved by millions around the globe for their effervescence, <br/> refreshing taste, and ability to quench thirst on a hot day. <br/> Whether enjoyed alone or paired with a meal, soft drinks offer <br/> a delightful sensory experience that transcends borders and <br/> cultures.");
 
         // Add components to the frame

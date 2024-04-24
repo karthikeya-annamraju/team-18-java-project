@@ -29,7 +29,7 @@ public class mobiles4 extends JFrame {
         JLabel label1 = createLabel1("SAMSUNG");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Brand : Samsung <br/> Model Name : Samsung Galaxy M15 5G <br/> Network Service Provider : Unlocked for All Carriers <br/> Operating System : Android 14.0 <br/> Cellular Technology : 5G");
+        JLabel label3 = createLabel3("<html> Brand : Samsung <br/> Model Name : Samsung Galaxy M15 5G <br/> Network Service Provider : Unlocked for All Carriers <br/> Operating System : Android 14.0 <br/> PRICE : 49999/-");
         JLabel label4 = createLabel4("<html> Mobile phones have become an indispensable part of modern <br/> life, offering connectivity, convenience, and cutting-edge <br/> technology at your fingertips. From sleek smartphones to <br/> feature-rich devices, mobile phones come in a variety of styles, <br/> specifications, and price points, allowing you to find the <br/> perfect device to suit your needs and lifestyle.");
 
         // Add components to the frame

@@ -29,7 +29,7 @@ public class accessories1 extends JFrame {
         JLabel label1 = createLabel1("EARRINGS");
         JLabel label2 = createLabel2(30,120);
         label2.setIcon(choco1);
-        JLabel label3 = createLabel3("<html> Material : typeNon-Precious Metal <br/> Metal type : Brass <br/> Gem type : Cubic Zirconia <br/> Occasion type : Wedding <br/> Item type name : Stud Earrings <br/> Country of Origin : India");
+        JLabel label3 = createLabel3("<html> Material : typeNon-Precious Metal <br/> Metal type : Brass <br/> Gem type : Cubic Zirconia <br/> Occasion type : Wedding <br/> Item type name : Stud Earrings <br/> PRICE : 899/-");
         JLabel label4 = createLabel4("<html> Earrings are more than just accessories; they're a reflection of <br/> your personality, style, and individuality. From classic studs to <br/> statement chandeliers, earrings come in a variety of styles, <br/> materials, and designs, allowing you to express yourself and <br/> elevate any outfit with ease.");
 
         // Add components to the frame

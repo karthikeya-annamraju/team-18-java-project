@@ -90,10 +90,10 @@ public class CategoriesFrame extends JFrame {
         JLabel label2 = new JLabel(text);
         label2.setHorizontalTextPosition(JLabel.CENTER);
         label2.setVerticalTextPosition(JLabel.TOP);
-        label2.setBounds(50, 550, 400, 40);
+        label2.setBounds(45, 550, 400, 40);
         label2.setBackground(new Color(254, 236, 226));
         label2.setForeground(new Color(19, 93, 102));
-        label2.setFont(new Font("Times New Roman",Font.PLAIN,12));
+        label2.setFont(new Font("Times New Roman",Font.PLAIN,14));
         return label2;
     }
     public static void main(String[] args) {
